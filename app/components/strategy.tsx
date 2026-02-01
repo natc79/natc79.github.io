@@ -31,7 +31,7 @@ const StrategyPage = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-16 text-slate-100">
-      <header className="mb-20 border-b border-slate-800 pb-10">
+      <header className="mb-20 border-b border-slate-800 pb-10 bg-black text-white w-full">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
           Strategy & Execution
         </h1>

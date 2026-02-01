@@ -96,7 +96,7 @@ const TravelPage = () => {
     {
       country: "Chile",
       slug: "chile",
-      image: "/images/travel/chila_cover.jpg",
+      image: "/images/travel/chile_cover.jpg",
       overview:
         "A sophisticated blend of high-rise modernity, world-class vineyards, and rugged wilderness, defining South America’s most seamless and accessible landscape.",
       photoCount: 30,
@@ -150,6 +150,46 @@ const TravelPage = () => {
       photoCount: 42,
     },
     {
+      country: "France",
+      slug: "france",
+      image: "/images/travel/france_cover.jpg",
+      overview:
+        "Grand monuments and world-renowned architecture within a storied culture that remains deeply rooted in its native tongue.",
+      photoCount: 42,
+    },
+    {
+      country: "French Polynesia",
+      slug: "french_polynesia",
+      image: "/images/travel/french_polynesia_cover.jpg",
+      overview:
+        "Lush peaks and vibrant reefs where Franco-Polynesian culture thrives within a focused, tourism-driven island economy.",
+      photoCount: 42,
+    },
+    {
+      country: "Germany",
+      slug: "germany",
+      image: "/images/travel/germany_cover.jpg",
+      overview:
+        "Efficient, modern, and effortlessly navigable, Berlin stands as a testament to German precision and urban vitality.",
+      photoCount: 42,
+    },
+    {
+      country: "Greece",
+      slug: "greece",
+      image: "/images/travel/greece_cover.jpg",
+      overview:
+        "History meets modern struggle; a landscape of island reprieves contrasted with the hardened grit of Athens.",
+      photoCount: 42,
+    },
+    {
+      country: "Guatemala",
+      slug: "guatemala",
+      image: "/images/travel/guatemala_cover.jpg",
+      overview:
+        "A hidden treasure of Mayan ruins and rich traditions, preserved by its wild jungles and understated global profile.",
+      photoCount: 42,
+    },
+    {
       country: "Japan",
       slug: "japan",
       image: "/images/travel/japan_cover.jpg",
@@ -178,7 +218,7 @@ const TravelPage = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-16 text-slate-100">
-      <header className="mb-12 border-b border-slate-800 pb-8">
+      <header className="mb-12 border-b border-slate-800 pb-8 bg-black text-white w-full">
         <h1 className="text-4xl font-extrabold mb-4">Global Lens</h1>
         <p className="mb-6">
           Documenting the world through a photographic lens—capturing the
