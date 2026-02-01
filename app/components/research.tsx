@@ -101,7 +101,7 @@ const ResearchPage = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-16 text-slate-100">
-      <header className="mb-16 border-b border-slate-800 pb-8">
+      <header className="mb-16 border-b border-slate-800 pb-8 bg-black text-white w-full">
         <h1 className="text-4xl font-bold mb-4">Research & Publications</h1>
         <p className="text-slate-400 text-lg max-w-4xl">
           My body of work spans the space of empirical analysis of health
