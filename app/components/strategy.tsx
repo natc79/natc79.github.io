@@ -32,7 +32,7 @@ const StrategyPage = () => {
   return (
     <div className="max-w-6xl mx-auto px-6 py-16 text-slate-100">
       <header className="mb-20 text-slate-900 dark:text-slate-100 border-b border-slate-800 pb-10">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 mb-6 bg-clip-text">
           Strategy & Execution
         </h1>
         <p className="text-slate-400 text-xl max-w-3xl leading-relaxed">
