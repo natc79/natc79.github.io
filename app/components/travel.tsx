@@ -8,7 +8,7 @@ const TravelPage = () => {
     {
       country: "Argentina",
       slug: "argentina",
-      image: "/images/travel/argentina_cover.JPG",
+      image: "/images/travel/argentina_cover.jpg",
       overview:
         "Patagonia’s glacial wilderness a study of environmental isolation.",
       photoCount: 42,
@@ -94,12 +94,44 @@ const TravelPage = () => {
       photoCount: 42,
     },
     {
+      country: "Chile",
+      slug: "chile",
+      image: "/images/travel/chila_cover.jpg",
+      overview:
+        "A sophisticated blend of high-rise modernity, world-class vineyards, and rugged wilderness, defining South America’s most seamless and accessible landscape.",
+      photoCount: 30,
+    },
+    {
       country: "China",
       slug: "china",
       image: "/images/travel/china_cover.jpg",
       overview:
         "Aggressive infrastructure and policy drive unprecedented growth and poverty reduction across a vast, diverse population.",
       photoCount: 42,
+    },
+    {
+      country: "Costa Rica",
+      slug: "cpsta_rica",
+      image: "/images/travel/costa_rica_cover.jpg",
+      overview:
+        "A safe, biodiversity sanctuary where volcanic peaks and coffee highlands meet a warm, friendly culture for adventure and relaxation.",
+      photoCount: 30,
+    },
+    {
+      country: "Czech Republic",
+      slug: "czech_republic",
+      image: "/images/travel/czech_republic_cover.jpg",
+      overview:
+        "A timeless blend of medieval beauty and deep history, offering world-class architecture alongside remarkably affordable living and cuisine.",
+      photoCount: 30,
+    },
+    {
+      country: "Denmark",
+      slug: "denmark",
+      image: "/images/travel/denmark_cover.jpg",
+      overview:
+        "A pinnacle of design culture featuring vibrant architecture and a sophisticated, world-class culinary scene.",
+      photoCount: 30,
     },
     {
       country: "Ecuador",
