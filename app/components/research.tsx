@@ -100,8 +100,8 @@ const ResearchPage = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-16 text-slate-100">
-      <header className="mb-16 border-b border-slate-800 pb-8 bg-black text-white w-full">
+    <div className="max-w-6xl mx-auto px-6 py-16 text-slate-900 dark:text-slate-100">
+      <header className="mb-16 border-b border-slate-800 pb-8">
         <h1 className="text-4xl font-bold mb-4">Research & Publications</h1>
         <p className="text-slate-400 text-lg max-w-4xl">
           My body of work spans the space of empirical analysis of health
@@ -137,7 +137,7 @@ const ResearchPage = () => {
 
             {/* Right: Content */}
             <div className="flex-grow">
-              <h2 className="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">
+              <h2 className="text-2xl font-bold mb-3 text-slate-900 dark:text-white group-hover:text-blue-400 transition-colors">
                 {piece.title}
               </h2>
               <p className="text-slate-400 leading-relaxed mb-6">

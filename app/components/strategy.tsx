@@ -31,8 +31,8 @@ const StrategyPage = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-16 text-slate-100">
-      <header className="mb-20 border-b border-slate-800 pb-10 bg-black text-white w-full">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
+      <header className="mb-20 text-slate-900 dark:text-slate-100 border-b border-slate-800 pb-10">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 bg-clip-text text-transparent">
           Strategy & Execution
         </h1>
         <p className="text-slate-400 text-xl max-w-3xl leading-relaxed">
@@ -70,12 +70,12 @@ const StrategyPage = () => {
                 <span>{project.year}</span>
               </div>
 
-              <h2 className="text-3xl font-bold group-hover:text-blue-400 transition-colors">
+              <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-blue-400 transition-colors">
                 <Link href={`/strategy/${project.slug}`}>{project.title}</Link>
               </h2>
 
               <div className="bg-blue-500/10 border-l-2 border-blue-500 p-4 mb-4">
-                <p className="text-blue-100 font-medium italic">
+                <p className="text-blue-400 font-medium italic">
                   {project.impact}
                 </p>
               </div>
