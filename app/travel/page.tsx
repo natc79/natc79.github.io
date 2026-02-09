@@ -1,6 +1,7 @@
 import TravelPage from "app/components/travel";
 import { generateMetadata } from "@/app/lib/metadata";
 
+
 export const metadata = generateMetadata({
   title: "Travel",
   description: "Travel and photography log",

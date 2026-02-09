@@ -1,5 +1,7 @@
+import { getImagesFromFolder } from "@/app/lib/getImages";
 import { destinations } from "@/app/lib/data";
 import { notFound } from "next/navigation";
+import PhotoCarousel from "@/app/components/PhotoCarousel";
 
 // The PageProps type for Next.js 15
 interface PageProps {
@@ -15,6 +17,8 @@ export async function generateStaticParams() {
 
 export default async function CountryPage({ params }: PageProps) {
   const { slug } = await params;
+  const imageFolder = `/images/travel/${slug}`;
+  const images = getImagesFromFolder(imageFolder);
   const country = destinations.find((d) => d.slug === slug);
 
   if (!country) notFound();
@@ -23,12 +27,12 @@ export default async function CountryPage({ params }: PageProps) {
     <main className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-5xl font-bold mb-6">{country.country}</h1>
 
-      {/* 2. The Photo Carousel Placeholder */}
-      <div className="bg-slate-100 rounded-xl aspect-video mb-8 flex items-center justify-center">
-        {/* You can drop a library like Embla Carousel or Swiper here */}
-        <p className="text-slate-500">
-          Photo Carousel for {country.images.length} images
-        </p>
+      <div className="mb-8">
+        {images.length > 0 ? (
+          <PhotoCarousel images={images} />
+        ) : (
+          <p className="text-slate-500">No photos found </p>
+        )}
       </div>
 
       <div className="prose prose-lg">
