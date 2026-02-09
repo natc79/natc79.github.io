@@ -357,15 +357,9 @@ const TravelPage = () => {
         <p className="mb-6">
           Documenting the world through a photographic lens—capturing the
           intersection of culture, environment, and the systemic forces that
-          shape individual outcomes.
-        </p>
-        <p className="mb-6">
-          The core of my perspective is shaped by the duality of my time in the
-          United States and the Philippines. While the US provides a lens on
-          high-tier infrastructure and global influence, my years living in the
-          Philippines allowed for a deeper, more intimate connection. It was
-          there that I moved beyond the role of an observer and became a witness
-          to the daily grit, the communal warmth, and the complex barriers to
+          shape individual outcomes. The core of my perspective is shaped by my
+          time in the United States and the Philippines where I have witnessed
+          the daily grit, the communal warmth, and the complex barriers to
           social mobility.
         </p>
         {/* The Counter Display */}
